@@ -2,12 +2,10 @@
 
 Creating Database Steps:
 
-1- Change Connection String (Concrete/EF/Contexts/AppDbContext.cs)
+1- Open tools > Nuget Package Manager > Package Manager Console
 
-2- Add initial migration 
+2- Change Connection String (Concrete/EF/Contexts/AppDbContext.cs)
 
-   Command: add-migration initial
+3- Add initial migration (Command: add-migration initial)
    
-3- Update DataBase
-
-   Command: Update-Database
+4- Update DataBase (Command: Update-Database)
