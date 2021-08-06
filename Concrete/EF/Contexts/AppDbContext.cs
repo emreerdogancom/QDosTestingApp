@@ -13,8 +13,8 @@ namespace SupplierApp.Concrete.EF.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                //optionsBuilder.UseSqlServer("Server=.; Database=SupplierApp; uid=sa; pwd=123456; MultipleActiveResultSets=true");
-                optionsBuilder.UseSqlServer("Server=.; Database=SupplierApp; Trusted_Connection=true; MultipleActiveResultSets=true");
+                //optionsBuilder.UseSqlServer("Server=.; Database=QdosTestingApp; uid=sa; pwd=123456; MultipleActiveResultSets=true");
+                optionsBuilder.UseSqlServer("Server=.; Database=QdosTestingApp; Trusted_Connection=true; MultipleActiveResultSets=true");
             }
         }
 
