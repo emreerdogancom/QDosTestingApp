@@ -1,6 +1,7 @@
 # QDosTestingApp
 
 Creating Database Steps:
+
 1- Change Connection String (Concrete/EF/Contexts/AppDbContext.cs)
 
 2- Add initial migration 
